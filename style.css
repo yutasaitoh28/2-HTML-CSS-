@@ -62,9 +62,9 @@ main {
   margin: 15px 0 5px;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
   main {
-    width: 90%;
+    width: 100%;
     margin: 50px auto;
   }
   .step-box {
@@ -74,14 +74,5 @@ main {
   }
   .step-box:last-child {
   margin-bottom: 0;
-  }
-  .step-img1 {
-    width: 100%;
-  }
-  .step-img2 {
-    width: 100%;
-  }
-  .step-img3 {
-    width: 100%;
   }
 }
